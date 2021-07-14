@@ -1,9 +1,7 @@
 # Apus
 
-
 ## O que é?
 Solução simplificada de ecommerce.
-
 
 ## Versão 1
 - Prazo: [08/07/2021] 15/07/2021
