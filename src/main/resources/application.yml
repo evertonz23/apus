@@ -3,6 +3,20 @@ server:
   servlet:
     context-path: /api
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    protocol: smtp
+    username: evertonz@gmail.com
+    password: ${MY_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          quitwait: false
   datasource:
     url: jdbc:postgresql://localhost:5432/apus
     username: apus
@@ -16,3 +30,6 @@ logging:
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
 myapp:
   password: ${MY_PASSWORD}
+  external:
+    lyra:
+      url: ${LYRA_URL:https://apus-external.herokuapp.com}
