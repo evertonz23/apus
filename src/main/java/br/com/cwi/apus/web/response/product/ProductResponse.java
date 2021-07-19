@@ -1,10 +1,10 @@
-package br.com.cwi.apus.web.response;
+package br.com.cwi.apus.web.response.product;
 
 import lombok.Data;
 
 @Data
 public class ProductResponse {
 
-    private Long id;
+    private String id;
     private String description;
 }

@@ -14,7 +14,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      - PGADMIN_DEFAULT_EMAIL=apus@teste.com.br
+      - PGADMIN_DEFAULT_EMAIL=admin@apus.com.br
       - PGADMIN_DEFAULT_PASSWORD=apus
     volumes:
       - pgadmin_data:/var/lib/pgadmin
